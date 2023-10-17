@@ -206,3 +206,21 @@ background: transparent;
 .submit:nth-child(2):hover {
     color: #081b29;
 }
+.submit::before {
+
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #081b29;
+    z-index: -1;
+    transition: .5s;
+}
+
+.submit:hover::before {
+    width: 100%;
+    height: 100%;
+
+}
