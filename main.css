@@ -153,18 +153,6 @@ background: transparent;
 
 }
 
-.talentekst {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    height: 125;
-}
-
-  .talentekst img {
-    height: auto;
-    flex-direction: row;
-  }
-
 
 .footer {
     
