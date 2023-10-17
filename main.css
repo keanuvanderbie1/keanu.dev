@@ -165,9 +165,10 @@ background: transparent;
 }
 
 .talentekst img {
-
+height: 100vh;
     size: 50px;
-    background-color: yellowgreen;
+    background-color: transparent;
     align-items: center;
+    
 
 }
