@@ -162,13 +162,12 @@ background: transparent;
     display: flex;
     padding: 0 10%;
     height: 100vh;
+    z-index: 1;
 }
 
 .talentekst img {
-height: 100vh;
     size: 50px;
     background-color: transparent;
     align-items: center;
-    
-
+    z-index: -1;
 }
