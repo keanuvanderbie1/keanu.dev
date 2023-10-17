@@ -1,50 +1,32 @@
-<?php
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Form</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form action="process.php" method="post">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" class="form-control" required>
+            </div>
 
-require 'PHPMailer/Exception.php';
-require 'PHPMailer/PHPMailer.php';
-require 'PHPMailer/SMTP.php';
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+            </div>
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = $_POST["name"];
-    $email = $_POST["email"];
-    $message = $_POST["message"];
-    
-    // Create a PHPMailer object
-    $mail = new PHPMailer(true);
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+            </div>
 
-    try {
-        // Server settings
-        $mail->SMTPDebug = SMTP::DEBUG_OFF; // You can change this to DEBUG_SERVER for more information
-        $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com'; // Your SMTP server address
-        $mail->SMTPAuth = true;
-        $mail->Username = 'keanuh20org@gmail.com'; // Your SMTP username
-        $mail->Password = 'HomeSweetHome2022@'; // Your SMTP password
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Enable TLS encryption
-        $mail->Port = 587; // TCP port to connect to
-
-        // Sender and recipient settings
-        $mail->setFrom('keanuh20org@gmail.com', 'Keanu.Dev system');
-        $mail->addAddress('keanu@gameunit.nl', 'Keanu van der Bie');
-
-        // Email content
-        $mail->isHTML(false);
-        $mail->Subject = 'New Contact Form Submission';
-        $mail->Body = "You have received a new contact form submission from $name ($email):\n\n$message";
-
-        // Send email
-        $mail->send();
-
-        // Redirect back to the contact form with a success message
-        header("Location: contact.php?success=true");
-    } catch (Exception $e) {
-        echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-    }
-} else {
-    // If the form wasn't submitted via POST, redirect back to the contact form
-    header("Location: contact.php");
-}
-?>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>
