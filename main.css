@@ -97,6 +97,8 @@ background: transparent;
 
 .btn-box a {
     display: inline-flex;
+    justify-content: center;
+    align-items: center;
     width: 150px;
     height: 100%;
     background: #00abf0;
@@ -105,4 +107,6 @@ background: transparent;
     font-size: 19px;
     color: #081b29;
     text-decoration: none;
+    font-weight: 600px;
+    letter-spacing: 1px;
 }
