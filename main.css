@@ -166,6 +166,7 @@ background: transparent;
 }
 
 .talentekst img {
+    height: 0%;
     size: 50px;
     background-color: transparent;
     align-items: center;
