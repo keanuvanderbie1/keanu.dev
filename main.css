@@ -172,7 +172,7 @@ background: transparent;
 .navbar {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #00abf0;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -184,7 +184,7 @@ background: transparent;
   }
   .navbar a.active {
     background-color: #081b29;
-    color: white;
+    color: #00abf0;
   }
 
   .navbar .icon {
