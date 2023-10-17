@@ -9,25 +9,6 @@
     <meta name="author" content="Keanu van der Bie">
     <meta name="description" content="Web Development - VdB Development">
 
-    <script>
-        // Smooth scrolling when clicking on navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-    
-                const targetId = this.getAttribute('href').substring(1);
-                const target = document.getElementById(targetId);
-    
-                if (target) {
-                    const targetPosition = target.getBoundingClientRect().top + window.scrollY;
-                    window.scrollTo({
-                        top: targetPosition - 50, // Adjust scroll position as needed
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-    </script>
 
 </head>
 <body>
@@ -49,8 +30,28 @@
     <a href="./register.php">Register</a>
 </nav>
 </a>
+<script>
+    // Smooth scrolling when clicking on navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
 
+            const targetId = this.getAttribute('href').substring(1);
+            const target = document.getElementById(targetId);
+
+            if (target) {
+                const targetPosition = target.getBoundingClientRect().top + window.scrollY;
+                window.scrollTo({
+                    top: targetPosition - 50, // Adjust scroll position as needed
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+</script>
     </a>
+
+
 
 </div>
 </header>
@@ -71,7 +72,7 @@
 
 
 
-
+<section id="pricing">
 
 <div class="packages" id="pricing">
         <h3>All of our packages!</h3>
@@ -109,11 +110,11 @@
             </div>
         </div>
     
-    
+    </section>
 
 
 
-
+<section id="contact">
     <div class="container">
         <h2>Contact Us</h2>
         <form action="contact.php" id="contact" method="post">
@@ -135,9 +136,8 @@
             <button type="submit" class="btn">Send Message</button>
         </form>
     </div>
-</body>
-</html>
-    
+
+</section>    
     
     
 
