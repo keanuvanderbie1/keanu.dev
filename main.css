@@ -113,6 +113,7 @@ background: transparent;
     letter-spacing: 1px;
     z-index: 1;
     overflow: hidden;
+    transition: .5s;
 }
 
 .btn-box a:nth-child(2) {
