@@ -172,3 +172,22 @@ background: transparent;
     align-items: center;
     z-index: -1;
 }
+
+
+
+.footer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+
+
