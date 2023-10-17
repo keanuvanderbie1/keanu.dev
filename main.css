@@ -200,6 +200,9 @@ background: transparent;
     transition: .5s;
 }
 
-.submit a:hover {
+.submit:hover {
     color: #00abf0;
+}
+.submit:nth-child(2):hover {
+    color: #081b29;
 }
