@@ -225,11 +225,8 @@ background: transparent;
 
 }
 
-.wpcf7 input[type="text"],
-.wpcf7 input[type="email"],
-.wpcf7 textarea
-{
-    background-color: #081b29;
-    color: #00abf0;
-    width: 50%;
+.contact label {
+background-color: #081b29;
+color: #ededed;
+font-family: 'Poppins', sans-serif;
 }
