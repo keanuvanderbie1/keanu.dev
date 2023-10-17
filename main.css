@@ -167,7 +167,7 @@ background: transparent;
 .contact textarea {
     width: 100%;
   }
-  div.wpcf7 label {
+  .contact label {
     display: block;
   }
 
