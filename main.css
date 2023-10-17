@@ -60,10 +60,10 @@ color: #00abf0;
     display: flex;
     align-items: center;
     padding: 0 10%;
-
+max-width: 600px;
     
 }
 
 .home-content {
-    max-width: 600px;
+    max-width: 400px;
 }
