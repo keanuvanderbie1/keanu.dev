@@ -38,9 +38,11 @@ background: #081b29;
 
 }
 
-.navbar {
+.navbar a{
     font-size: 18px;
     color: #ededed;
     text-decoration: none;
     font-weight: 500;
+    margin-left: 35px;
+
 }
