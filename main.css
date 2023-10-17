@@ -155,7 +155,7 @@ background: transparent;
 
 .talentekst {
     display: flex;
-    flex-direction:column-reverse;
+    flex-direction:row;
     align-items: center;
     text-align: center;
     height: 125;
