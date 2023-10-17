@@ -153,7 +153,7 @@ background: transparent;
 
 }
 
-.talentekst {
+.talentekst h3 {
 
     font-size: 32px;
     font-weight: 700;
@@ -164,10 +164,10 @@ background: transparent;
     height: 100vh;
 }
 
-.talen img {
+.talentekst img {
 
-align-items: center;
-height: 100vh;
-
+    size: 50px;
+    background-color: yellowgreen;
+    align-items: center;
 
 }
