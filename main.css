@@ -153,25 +153,6 @@ background: transparent;
 
 }
 
-.talentekst h3 {
-
-    font-size: 32px;
-    font-weight: 700;
-    color: #00abf0;
-    text-align: center;
-    display: flex;
-    padding: 0 10%;
-    height: 100vh;
-    z-index: 1;
-}
-
-.talentekst img {
-    height: 0%;
-    size: 50px;
-    background-color: transparent;
-    align-items: center;
-    z-index: -1;
-}
 
 
 
