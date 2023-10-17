@@ -15,16 +15,6 @@
 
     <a href="" class="logo">Keanu.</a>
 
-
-<nav class="navbar">
-
-    <a href="#" class="active">Homepage</a>
-    <a href="#home-content">About Me</a>
-    <a href="#">Services</a>
-    <a href="#">Portofolio</a>
-    <a href="#container">Contact</a>
-    <a href="./login.php">Login</a>
-    <a href="./register.php">Register</a>
     <script>
         // Smooth scrolling when clicking on navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -45,6 +35,16 @@
         });
     </script>
     
+<nav class="navbar">
+
+    <a href="home" class="active">Homepage</a>
+    <a href="#aboutme">About Me</a>
+    <a href="#">Services</a>
+    <a href="#">Portofolio</a>
+    <a href="#contact">Contact</a>
+    <a href="./login.php">Login</a>
+    <a href="./register.php">Register</a>
+
 </nav>
 </a>
 
@@ -55,7 +55,7 @@
 
 <section class="home">
 
-    <div class="home-content">
+    <div class="home-content" id="aboutme">
     
     <h1>Hey! I am Keanu</h1>
     <h3>Front-End developer</h3>
@@ -71,7 +71,7 @@
 
     <div class="container">
         <h2>Contact Us</h2>
-        <form action="contact.php" id="container" method="post">
+        <form action="contact.php" id="contact" method="post">
             <div class="form-group">
                 <label for="name">Your Name</label>
                 <input type="text" id="name" name="name" class="form-control" required>
