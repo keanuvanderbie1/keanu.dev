@@ -159,6 +159,14 @@ background: transparent;
 
 }
 
+.contact label, input, select, option{
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
 
 .footer {
     
