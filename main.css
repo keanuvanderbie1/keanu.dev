@@ -394,8 +394,6 @@ font-weight: 700;
 }
 
 .contactbutton a {
-    position: relative;
-    display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 150px;
