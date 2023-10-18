@@ -319,7 +319,7 @@ button {
 
 }
 
-.aboutmeh3 h3 {
+.aboutmeh3 {
 
 color: #00abf0;
 font-size: 56px;
@@ -331,7 +331,7 @@ font-weight: 700;
 }
 
 
-.aboutmeh3 p {
+.aboutmetext {
 
 font-size: 16px;
 color: #ededed;
@@ -392,6 +392,6 @@ text-align: center;
     font-weight: 700px;
     display: flex;
     justify-content: center;
-    
+
 
 }
