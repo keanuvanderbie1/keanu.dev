@@ -415,7 +415,6 @@ font-weight: 700;
     color: #00abf0;
 }
 
-.contactbutton a:nth-child(2) {
-    background: transparent;
-    color: #00abf0;
+.contactbutton a:nth-child(2):hover {
+    color: #081b29;
 }
