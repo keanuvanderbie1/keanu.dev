@@ -394,8 +394,10 @@ font-weight: 700;
 }
 
 .contactbutton a {
+    position: relative;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 150px;
     height: 100%;
     background: #00abf0;
@@ -415,6 +417,14 @@ font-weight: 700;
     color: #00abf0;
 }
 
-.contactbutton a:nth-child(2):hover {
-    color: #081b29;
+.contactbutton a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #081b29;
+    z-index: -1;
+    transition: .5s;
 }
