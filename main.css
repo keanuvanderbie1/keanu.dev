@@ -324,8 +324,7 @@ button {
 color: #00abf0;
 font-size: 56px;
 text-align: center;
-display: flex;
-padding: 0 10%;
+align-items: center;
 font-weight: 700;
 
 }
