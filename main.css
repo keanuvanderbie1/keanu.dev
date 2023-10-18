@@ -159,17 +159,7 @@ background: transparent;
 
 }
 
-.contact {
-    max-width: 500px; /* set the max-width you prefer */
-    margin: 0 auto;
-  }
-.contact input:not([type="checkbox"]),
-.contact textarea {
-    width: 100%;
-  }
-  .contact label {
-    display: block;
-  }
+
 
 .footer {
     
@@ -394,3 +384,11 @@ height: 25vh;
 
 }
 
+.contacth3 {
+
+text-align: center;
+font-size: 56px;
+color: #00abf0;
+font-weight: 700;
+
+}
