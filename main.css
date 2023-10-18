@@ -393,7 +393,7 @@ font-weight: 700;
 
 }
 
-.hireme {
+.contactbutton a {
     position: relative;
     display: inline-flex;
     justify-content: center;
@@ -413,11 +413,11 @@ font-weight: 700;
     transition: .5s;
 }
 
-.hireme:hover {
+.contactbutton a:hover {
     color: #00abf0;
 }
 
-.hireme::before {
+.contactbutton a::before {
     content: '';
     position: absolute;
     top: 0;
@@ -427,4 +427,11 @@ font-weight: 700;
     background: #081b29;
     z-index: -1;
     transition: .5s;
+}
+
+.contactbutton, .hireme {
+
+text-align: center;
+align-items: center;
+
 }
