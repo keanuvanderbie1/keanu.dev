@@ -431,6 +431,7 @@ font-weight: 700;
 
 .contactbutton, .hireme {
 
+    height: 50vh;
 text-align: center;
 align-items: center;
 
