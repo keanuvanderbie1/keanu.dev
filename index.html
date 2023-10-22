@@ -226,4 +226,21 @@
 
 </div>
 
+<script>
+    (function(d,t) {
+      var BASE_URL="http://45.138.19.62:3000";
+      var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=BASE_URL+"/packs/js/sdk.js";
+      g.defer = true;
+      g.async = true;
+      s.parentNode.insertBefore(g,s);
+      g.onload=function(){
+        window.chatwootSDK.run({
+          websiteToken: '9AtDN2JtHhcqvd6Jck19svG3',
+          baseUrl: BASE_URL
+        })
+      }
+    })(document,"script");
+  </script>
+
 </html>
