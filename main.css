@@ -164,10 +164,22 @@ background: transparent;
 .footer {
     
     color: #ededed;
-    text-align:center;
-    
+    text-align:center; 
     height: 100;
-    
+    z-index: 1;
+    transition: 0.5s;
+
+}
+
+footer p:active,
+
+footer p.active{
+
+
+color: #00abf0
+
+
+
 }
 
 
