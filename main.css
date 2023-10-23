@@ -466,3 +466,10 @@ margin-bottom: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
 }
+
+.team img {
+
+max-width: 100px;
+max-height: 100px;
+
+}
