@@ -171,9 +171,9 @@ background: transparent;
 
 }
 
-footer p:active,
+footer footer:active,
 
-footer p.active{
+footer footer.active{
 
 
 color: #00abf0
