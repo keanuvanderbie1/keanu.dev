@@ -502,6 +502,8 @@ margin-bottom: 1rem;
 .team-member img {
     max-width: 200px;
     border-radius: 50%;
+    align-items: center;
+    text-align: center;
 }
 
 .team-member h3 {
