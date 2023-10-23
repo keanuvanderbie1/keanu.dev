@@ -467,9 +467,39 @@ margin-bottom: 1rem;
 
 }
 
-.team img {
 
-max-width: 100px;
-max-height: 100px;
-
+.team-section {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.team-section h2 {
+    color: #333;
+}
+
+.team-member {
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.team-member img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.team-member p {
+    color: #777;
+}
+
+/* Voeg meer CSS-stijlen toe zoals gewenst */
+
