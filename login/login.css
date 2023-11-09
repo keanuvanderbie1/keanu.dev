@@ -80,6 +80,7 @@ label, input {
     margin-bottom: 10px;
     display: block;
     align-items: center;
+    text-align: center;
 }
 button {
     padding: 10px;
