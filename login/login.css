@@ -65,11 +65,14 @@ form {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     align-items: center;
     width: 50%;
+    margin: auto;
 }
 label, input {
     margin-bottom: 10px;
     display: block;
     align-items: center;
+    width: 50%;
+    margin: auto;
 }
 button {
     height: 10vh;
