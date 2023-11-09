@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keanu.dev</title>
+    <link rel="stylesheet" href="./main.css">
+    <meta name="keywords" content="Keanu van der Bie, Keanu, VdB Management, VdB Holding">
+    <meta name="author" content="Keanu van der Bie">
+    <meta name="description" content="Web Development - VdB Development">
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="./script.js" defer></script>
+
+</head>
+<body>
+
+<header class="header" id="home">
+
+    <a href="https://keanuvanderbie1.github.io/keanu.dev" class="logo">Keanu.</a>
+
+   
+    
+<nav class="navbar">
+
+    <a href="#aboutme">About Me</a>
+    <a href="#portfolio">Portofolio</a>
+    <a href="#pricing">Services</a>
+    <a href="#contact">Contact</a>
+    <a href="./login.php">Login</a>
+</nav>
+</a>
+<script>
+    // Smooth scrolling when clicking on navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute('href').substring(1);
+            const target = document.getElementById(targetId);
+
+            if (target) {
+                const targetPosition = target.getBoundingClientRect().top + window.scrollY;
+                window.scrollTo({
+                    top: targetPosition - 50, // Adjust scroll position as needed
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+</script>
+    </a>
+
+</header>
+</body>
+
+
+
+
+
+
+
+
+<section class="footer">
+
+
+    <div class="footer">
+
+        <footer> <small>&copy; Copyright 2020-2023, VdB Development</small> </footer> 
+    
+    </div>
+
+</section>
+
+
+
+</html>
