@@ -79,6 +79,9 @@ form {
 label, input {
     margin-bottom: 10px;
     display: block;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
 }
 button {
     padding: 10px;
