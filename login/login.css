@@ -57,7 +57,7 @@ color: #00abf0;
 }
 
 form {
-    height: 50%;
+    height: 100vh;
     text-align: center;
     border: 1px solid #00abf0;
     padding: 20px;
@@ -66,6 +66,7 @@ form {
     align-items: center;
     width: 50%;
     margin: auto;
+    left: 50%;
 }
 label, input {
     margin-bottom: 10px;
@@ -74,6 +75,7 @@ label, input {
     width: 50%;
     height: 50%;
     margin: auto;
+    left: 50%;
 }
 button {
     height: 10vh;
