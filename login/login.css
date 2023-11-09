@@ -56,20 +56,7 @@ color: #00abf0;
 
 }
 
-.home {
-    height: 100vh;
-    display: flex;
-    background: url('https://royalehosting.net/_app/immutable/assets/header-map.9a1284d0.svg') no-repeat;
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-    padding: 0 10%;
-    
-
-    
-}
-
-form {
+.login {
     height: 100vh;
     text-align: center;
     border: 1px solid #00abf0;
