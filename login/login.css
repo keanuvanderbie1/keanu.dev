@@ -79,7 +79,6 @@ form {
     align-items: center;
 }
 label, input {
-    height: 30vh;
     margin-bottom: 10px;
     display: block;
     align-items: center;
