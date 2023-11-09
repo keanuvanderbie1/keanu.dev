@@ -69,8 +69,11 @@ color: #00abf0;
     
 }
 .login {
-    height: 50vh;
+    
+    text-align: center;
     align-items: center;
     background-color: transparent;
-    
+    display: flex;
+    padding: 0 10%;
+
 }
