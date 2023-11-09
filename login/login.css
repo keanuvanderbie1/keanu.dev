@@ -70,6 +70,7 @@ color: #00abf0;
 }
 
 form {
+    height: 100vh;
     text-align: center;
     border: 1px solid #00abf0;
     padding: 20px;
@@ -78,11 +79,13 @@ form {
     align-items: center;
 }
 label, input {
+    height: 30vh;
     margin-bottom: 10px;
     display: block;
     align-items: center;
 }
 button {
+    height: 10vh;
     align-items: center;
     padding: 10px;
     background-color: transparent;
