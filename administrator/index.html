@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keanu.dev</title>
+    <link rel="stylesheet" href="./login.css">
+    <meta name="keywords" content="Keanu van der Bie, Keanu, VdB Management, VdB Holding">
+    <meta name="author" content="Keanu van der Bie">
+    <meta name="description" content="Web Development - VdB Development">
+    <script src="https://js.stripe.com/v3/"></script>
+    
+    <script>document.addEventListener("DOMContentLoaded", function () {
+      const menuToggle = document.querySelector(".menu-toggle");
+      const navbar = document.querySelector(".navbar");
+  
+      menuToggle.addEventListener("click", function () {
+          navbar.classList.toggle("active");
+      });
+  });
+  </script>
+</head>
+<body>
+
+
+<header class="header" id="home">
+
+    <a href="https://keanuvanderbie1.github.io/keanu.dev" class="logo">Keanu.</a>
+
+    <div class="menu-toggle">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+  </div>
+
+
+    
+<nav class="navbar">
+    <a href="https://keanuvanderbie1.github.io/keanu.dev/">Portofolio</a>
+    <a href="https://keanuvanderbie1.github.io/keanu.dev/">Services</a>
+    <a href="https://keanuvanderbie1.github.io/keanu.dev/">Contact</a>
+    <a href="https://keanuvanderbie1.github.io/keanu.dev/login">Login</a>
+</nav>
+</a>
+    </a>
+
+</header>
+
+
+<form id="loginform"> 
+
+    <label for="e-mail">E-Mail:</label>
+    <input type="text" id="username" name="username" placeholder="Example@gmail.com" required>
+
+  <label for="password">Password:</label> 
+    <input type="password" id="password" name="password" placeholder="Enter Password" required>
+
+ <button type="submit">Login</button>
+</form>
+
+<div class="message" id="message"></div>
+
+
+
+
+<script>
+  // Client-side validation and handling form submission
+  document.getElementById("loginform").addEventListener("submit", function (event) {
+      event.preventDefault(); // Prevent the form from submitting
+
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+
+      // Replace with your server-side validation logic
+      if (username === "your_username" && password === "your_password") {
+          document.getElementById("message").textContent = "Login successful!";
+          window.location.href = "https://keanuvanderbie1.github.io/keanu.dev/welcome"; // Replace with your actual URL
+      } else {
+          document.getElementById("message").textContent = "Invalid username or password. Please try again.";
+      }
+  });
+</script>
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>
