@@ -66,7 +66,7 @@ form {
     align-items: center;
     width: 50%;
     margin: auto;
-    height: 600px;
+    height:center;
     flex-direction: column;
     justify-content: center;
 
@@ -78,6 +78,7 @@ label, input {
     width: 50%;
     margin: auto;
     left: 50%;
+    height: center;
 }
 button {
     height: 10vh;
