@@ -9,6 +9,16 @@
     <meta name="author" content="Keanu van der Bie">
     <meta name="description" content="Web Development - VdB Development">
     <script src="https://js.stripe.com/v3/"></script>
+    
+    <script>document.addEventListener("DOMContentLoaded", function () {
+      const menuToggle = document.querySelector(".menu-toggle");
+      const navbar = document.querySelector(".navbar");
+  
+      menuToggle.addEventListener("click", function () {
+          navbar.classList.toggle("active");
+      });
+  });
+  </script>
 </head>
 <body>
 
@@ -16,6 +26,12 @@
 <header class="header" id="home">
 
     <a href="https://keanuvanderbie1.github.io/keanu.dev" class="logo">Keanu.</a>
+
+    <div class="menu-toggle">
+      <div class="bar">Homepage</div>
+      <div class="bar">Hire Me!</div>
+      <div class="bar">Login</div>
+  </div>
 
 
     
