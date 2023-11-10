@@ -58,21 +58,18 @@ color: #00abf0;
 
 form {
 
-    text-align: center;
-    border: 1px solid #00abf0;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    align-items: center;
-    width: 50%;
-    margin: auto;
-    height:center;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid #00abf0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
     height: 50%;
-    top: 50%;
-
+    margin: auto;
+    padding: 20px;
+    
 }
 label, input {
     margin-bottom: 10px;
