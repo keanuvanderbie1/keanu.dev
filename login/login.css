@@ -127,3 +127,11 @@ form {
       display: flex; /* Show the navigation menu when active */
   }
 }
+
+.message {
+
+background-color: #f20f29;
+font-weight: 600;
+font-size: 24px;
+
+}
