@@ -9,9 +9,6 @@
     <meta name="author" content="Keanu van der Bie">
     <meta name="description" content="Web Development - VdB Development">
     <script src="https://js.stripe.com/v3/"></script>
-    <script src="../script.js" defer></script>
-
-
 </head>
 <body>
 
@@ -31,25 +28,6 @@
     <a href="https://keanuvanderbie1.github.io/keanu.dev/login">Login</a>
 </nav>
 </a>
-<script>
-    // Smooth scrolling when clicking on navigation links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-
-            const targetId = this.getAttribute('href').substring(1);
-            const target = document.getElementById(targetId);
-
-            if (target) {
-                const targetPosition = target.getBoundingClientRect().top + window.scrollY;
-                window.scrollTo({
-                    top: targetPosition - 50, // Adjust scroll position as needed
-                    behavior: 'smooth'
-                });
-            }
-        });
-    });
-</script>
     </a>
 
 </header>
