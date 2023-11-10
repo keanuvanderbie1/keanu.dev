@@ -57,7 +57,6 @@ color: #00abf0;
 }
 
 form {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,29 +65,20 @@ form {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 50%;
-    height: 50%;
-    margin: auto;
     padding: 20px;
-    
-}
-label, input {
-    margin-bottom: 10px;
-    display: block;
-    align-items: center;
-    width: 50%;
-    margin: 0;
-    left: 50%;
-    height: 50%;
-    flex-wrap: wrap;
-    
-}
-button {
-    height: 10vh;
-    align-items: center;
+  }
+  
+  label, input {
+    margin: 10px 0; /* Adjust margin for spacing */
+    width: 100%; /* Full width */
+  }
+  
+  button {
+    height: 40px; /* Adjust the button height as needed */
     padding: 10px;
     background-color: black;
     color: #00abf0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-}
+  }
