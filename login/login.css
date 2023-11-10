@@ -67,6 +67,7 @@ form {
     width: 50%;
     margin: auto;
     left: 50%;
+    height: 50%;
 }
 label, input {
     margin-bottom: 10px;
