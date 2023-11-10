@@ -81,7 +81,7 @@ form {
   }
   
   button {
-    height: 40px; /* Adjust the button height as needed */
+    height: 100px; /* Adjust the button height as needed */
     padding: 10px;
     background-color: black;
     color: #00abf0;
