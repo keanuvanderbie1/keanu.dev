@@ -62,7 +62,22 @@
 
 
 
+<script>
+  // Client-side validation and handling form submission
+  document.getElementById("login-form").addEventListener("submit", function (event) {
+      event.preventDefault(); // Prevent the form from submitting
 
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+
+      // Replace with your server-side validation logic
+      if (username === "your_username" && password === "your_password") {
+          document.getElementById("message").textContent = "Login successful!";
+      } else {
+          document.getElementById("message").textContent = "Invalid username or password. Please try again.";
+      }
+  });
+</script>
 
 
 
