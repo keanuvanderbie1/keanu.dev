@@ -518,3 +518,38 @@ margin-bottom: 1rem;
 /* Voeg meer CSS-stijlen toe zoals gewenst */
 
 
+.menu-toggle {
+    display: none; /* Hide the hamburger menu button by default */
+    flex-direction: column;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .bar {
+    width: 30px;
+    height: 3px;
+    background-color: #ededed;
+    margin: 3px 0;
+  }
+  
+  
+  /* Add a media query to show/hide the hamburger menu button as needed */
+  @media (max-width: 768px) {
+    .menu-toggle {
+        display: flex; /* Show the hamburger menu button on smaller screens */
+    }
+    
+    .navbar {
+        display: none; /* Hide the navigation menu by default on smaller screens */
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px; /* Adjust the top position as needed */
+        background: #081b29;
+    }
+  
+    .navbar.active {
+        display: flex; /* Show the navigation menu when active */
+    }
+  }
+  
