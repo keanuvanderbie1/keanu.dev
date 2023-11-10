@@ -57,23 +57,11 @@ color: #00abf0;
 }
 
 form {
+    border: 1px solid black;
+    width: 300px;
+    margin:auto;
+  }
 
-    text-align: center;
-    border: 1px solid #00abf0;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    align-items: center;
-    width: 50%;
-    margin: auto;
-    height:center;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 50%;
-
-
-}
 label, input {
     margin-bottom: 10px;
     display: block;
