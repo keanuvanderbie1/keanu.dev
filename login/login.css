@@ -71,7 +71,10 @@ form {
     justify-content: center;
     flex-wrap: wrap;
     height: 50%;
-
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 
 }
 label, input {
