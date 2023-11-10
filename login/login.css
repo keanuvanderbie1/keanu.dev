@@ -66,6 +66,7 @@ form {
     align-items: center;
     width: 50%;
     margin: auto;
+    left: 50%;
 }
 label, input {
     margin-bottom: 10px;
@@ -73,7 +74,7 @@ label, input {
     align-items: center;
     width: 50%;
     margin: auto;
-
+    left: 50%;
 }
 button {
     height: 10vh;
