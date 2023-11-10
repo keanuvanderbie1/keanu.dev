@@ -70,6 +70,8 @@ form {
     display: flex;
     height: 50%;
     flex-direction: column;
+    justify-content: center;
+
 }
 label, input {
     margin-bottom: 10px;
