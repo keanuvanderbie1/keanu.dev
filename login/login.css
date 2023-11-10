@@ -110,6 +110,7 @@ form {
   
     .menu-icon {
       display: block; /* Show "hamburger" icon on smaller screens */
+      align-items:right;
     }
   
     .navbar.show {
