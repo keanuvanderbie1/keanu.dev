@@ -76,6 +76,7 @@ form {
   label, input {
     margin: 10px 0; /* Adjust margin for spacing */
     padding: 12px 20px;
+    height: 30px;
 
   }
   
