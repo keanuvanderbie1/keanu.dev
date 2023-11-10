@@ -75,7 +75,9 @@ form {
   
   label, input {
     margin: 10px 0; /* Adjust margin for spacing */
-    width: 100%; /* Full width */
+    width: 50%; /* Full width */
+    padding: 12px 20px;
+
   }
   
   button {
