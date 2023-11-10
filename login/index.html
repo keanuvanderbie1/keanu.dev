@@ -47,7 +47,7 @@
 </header>
 
 
-<form action="process_login.php" method="post"> 
+<form id="loginform"> 
 
     <label for="e-mail">E-Mail:</label>
     <input type="text" id="username" name="username" placeholder="Example@gmail.com" required>
@@ -64,7 +64,7 @@
 
 <script>
   // Client-side validation and handling form submission
-  document.getElementById("login-form").addEventListener("submit", function (event) {
+  document.getElementById("loginform").addEventListener("submit", function (event) {
       event.preventDefault(); // Prevent the form from submitting
 
       const username = document.getElementById("username").value;
