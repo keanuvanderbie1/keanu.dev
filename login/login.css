@@ -95,9 +95,8 @@ form {
   .menu-icon {
     display: none; /* Initially hidden on larger screens */
     position: absolute;
-    align-items: right;
-    top: 10px;
-    left: 10px;
+    top: 10px; /* Adjust as needed to position it vertically */
+    right: 10px; /* Adjust as needed to position it horizontally */
     cursor: pointer;
     color: #fff;
     font-size: 24px;
