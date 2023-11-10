@@ -92,3 +92,27 @@ form {
   }
 
   
+  .menu-icon {
+    display: none; /* Initially hidden on larger screens */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  /* Show the "hamburger" icon on smaller screens */
+  @media (max-width: 768px) {
+    .navbar {
+      display: none; /* Hide navigation links on smaller screens */
+    }
+  
+    .menu-icon {
+      display: block; /* Show "hamburger" icon on smaller screens */
+    }
+  
+    .navbar.show {
+      display: block; /* Show navigation links when "hamburger" icon is clicked */
+    }
+  }
